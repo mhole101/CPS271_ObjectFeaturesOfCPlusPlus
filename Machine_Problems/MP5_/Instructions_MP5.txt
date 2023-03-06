@@ -1,0 +1,18 @@
+Machine Problem 5
+Assignment #5
+ 
+Design an application that has 6 classes; MyDate, Person, Student, Employee, Faculty, Staff.
+•	Person class has two derived classes named Student and Employee.
+•	Faculty and Staff derived classes of Employee.
+•	MyDate class contains the integer fields; year, month, and day.
+•	Person has a name (string), birth date (MyDate), phone number (string), and email address (string).
+•	Student has a grade status (freshman, sophomore, junior, or senior) this should be an enumerated type and a GPA (double).
+•	Employee has a salary (long), and date hired (MyDate).
+•	Faculty has office room # (int), tenure (bool) and office hours (vector of myDate objects - dates they are available in their office).
+•	Staff has a title (string).
+ 
+Each of these classes should have a Input() function to get its data from the user at the keyboard, and a Print() function to display its data. Each class should also have "The BIG Four" functions in them:
+     Empty Constructor
+     Copy Constructor
+     Assignment Operator (operator =)
+     virtual Destructor
